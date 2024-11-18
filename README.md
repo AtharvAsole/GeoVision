@@ -24,3 +24,8 @@ GeoVision leverages high-resolution satellite imagery and the U-Net model to det
 
 <img src="imgReference/img.png">
 <img src="imgReference/mask.png">
+
+# Conclusion
+<p>In conclusion, the change detection approach is significantly enhanced by deep learning techniques such as <b>U-Net</b>, which outperform conventional methods. Image preprocessing facilitates the detection of various objects, including buildings, roads, vegetation, and water features. 
+The U-Net model effectively predicts masked images, providing quantified change detection in specified regions over time. We utilized <b>50 epochs</b>, achieving an accuracy of <b>83.4%</b>, which could be improved by optimizing the number of epochs. Additionally, the ResNet model demonstrated even better performance, attaining an accuracy of <b>78%</b>, further underscoring the efficacy of deep learning in change detection applications.
+</p>
