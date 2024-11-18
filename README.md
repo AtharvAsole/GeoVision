@@ -15,10 +15,11 @@ GeoVision leverages high-resolution satellite imagery and the U-Net model to det
 <img src="imgReference/module.png">
 
 # Dataset Preparation
-<ul>
+  <ul>
   <li>The study area is Nagpur, Maharashtra, India, known for its diverse land use, including urban, forest, and agricultural zones impacted by rapid urbanization and human activities.</li>
   <li>The initial images were taken at a resolution of 600 DPI with a 1:8000 scale and were large in size, so they were divided into 8 equal tiles to facilitate easier processing and analysis.</li>
   <li>Each sliced image maintained clarity while optimizing file size for effective model training and change detection.</li>
+  <li>Masking is done by classifying each pixel in the image into predefined categories (such as land, water, building, vegetation, etc.), where the classes are represented as masks that highlight the areas of interest for change detection analysis.</li>
 </ul>
 
 <img src="imgReference/img.png">
