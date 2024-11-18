@@ -22,12 +22,13 @@ GeoVision leverages high-resolution satellite imagery and the U-Net model to det
   <li>Masking is done by classifying each pixel in the image into predefined categories (such as land, water, building, vegetation, etc.), where the classes are represented as masks that highlight the areas of interest for change detection analysis.</li>
 </ul>
 
-# Project Screenshots
-<img src="imgReference/gui1.png">
-<img src="imgReference/gui2.png">
-
 <img src="imgReference/img.png">
 <img src="imgReference/mask.png">
+
+# Project Screenshots
+<img src="imgReference/gui1.png" width="300" height="200">
+<img src="imgReference/gui2.png" width="300" height="200">
+
 
 # Conclusion
 <p>In conclusion, the change detection approach is significantly enhanced by deep learning techniques such as <b>U-Net</b>, which outperform conventional methods. Image preprocessing facilitates the detection of various objects, including buildings, roads, vegetation, and water features. 
